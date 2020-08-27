@@ -39,7 +39,6 @@ weight = 3
 URL = "notice"
 name = "notice"
 weight = 4
-
 [params]
 address = "9567 Turner Trace Apt. BC C3G8A4"
 author = "Themefisher"
