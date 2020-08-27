@@ -36,10 +36,6 @@ contact:
   icon: ti-location-pin
   link: "#"
 type: teacher
-menu:
-  main:
-    name: Test
-    weight: 1
 
 ---
 ### À propos de moi

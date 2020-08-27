@@ -11,6 +11,11 @@ fields:
 - name: bg_image
   type: file
   config:
-    maxSize: 250
+    maxSize: 12
   label: bg image
   description: page header background image
+- name: menu
+  type: text
+  config:
+    required: false
+  label: menu
