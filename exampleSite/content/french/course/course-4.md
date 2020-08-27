@@ -13,10 +13,6 @@ weekly: 03 heures
 fee: À partir de 699$
 apply_url: "#"
 type: course
-menu:
-  Main:
-    name: JS
-    weight: 3
 
 ---
 ### À propos du cours
