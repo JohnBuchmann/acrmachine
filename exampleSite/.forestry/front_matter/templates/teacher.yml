@@ -46,3 +46,8 @@ fields:
   name: type
   label: type
   default: teacher
+- name: menu
+  type: text
+  config:
+    required: false
+  label: menu
