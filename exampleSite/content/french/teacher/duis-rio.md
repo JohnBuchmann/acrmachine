@@ -39,7 +39,7 @@ type: teacher
 menu:
   main:
     name: Test
-    weight: 5
+    weight: 1
 
 ---
 ### À propos de moi
