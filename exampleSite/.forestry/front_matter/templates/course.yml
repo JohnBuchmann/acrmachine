@@ -47,3 +47,9 @@ fields:
   name: type
   label: type
   default: course
+- name: test
+  type: text
+  config:
+    required: false
+  label: test
+  description: Just a test front matter field
