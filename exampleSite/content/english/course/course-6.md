@@ -12,6 +12,7 @@ duration: 06 Month
 weekly: 03 hours
 fee: 'From: $699'
 apply_url: "#"
+test: aaa
 
 ---
 ### About Course
