@@ -35,7 +35,11 @@ contact:
 - name: 1313 Boulevard Cremazie,Quebec
   icon: ti-location-pin
   link: "#"
-menu: Main
+type: teacher
+menu:
+  main:
+    name: Test
+    weight: 2
 
 ---
 ### À propos de moi
