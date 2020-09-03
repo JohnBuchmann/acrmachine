@@ -85,25 +85,18 @@ sections:
   templates:
   - new-page
 - type: heading
-  label: Data
-- type: directory
-  path: exampleSite/data/en
-  label: Data
-  create: all
-  match: "**/*"
-- type: directory
-  path: exampleSite/i18n
-  label: i18n
-  create: documents
-  match: "**/*"
-- type: heading
-  label: Configuration
+  label: Misc
 - type: directory
   path: exampleSite
   label: Configuration
   create: all
   match: "*.toml"
   new_doc_ext: toml
+- type: directory
+  path: exampleSite/data/en
+  label: Data
+  create: all
+  match: "**/*"
 upload_dir: exampleSite/static/images
 public_path: "/images"
 front_matter_path: ''
