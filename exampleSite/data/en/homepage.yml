@@ -107,12 +107,10 @@ blog:
   title: Latest News
 homepage_blocks:
   blocks:
-  - title: Title 05
-    link: blabla.html
-    description: Just a test
-  - title: Title 1
+  - title: Quality
     link: "/"
-    description: Lorem ipsum 01
+    description: Our machinery is state of the art. Our test instruments are calibrated
+      traceable to NIST.
   - title: Title 2
     link: "/"
     description: Lorem ipsum 02
