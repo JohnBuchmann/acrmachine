@@ -106,7 +106,6 @@ blog:
   enable: true
   title: Latest News
 homepage_blocks:
-  enable: true
   blocks:
   - title: "Title 1"
     link: "/"
