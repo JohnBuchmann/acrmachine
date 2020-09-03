@@ -6,80 +6,80 @@ webhook_url:
 sections:
 - type: directory
   path: exampleSite/content/english/blog
-  label: Post (en)
+  label: Post
   create: documents
   match: "**/*"
   templates:
   - post
 - type: directory
   path: exampleSite/content/english/author
-  label: Author (en)
+  label: Author
   create: documents
   match: "**/*"
   templates:
   - author
 - type: directory
   path: exampleSite/content/english/course
-  label: Course (en)
+  label: Course
   create: documents
   match: "**/*"
   templates:
   - course
 - type: directory
   path: exampleSite/content/english/notice
-  label: Notice (en)
+  label: Notice
   create: all
   match: "**/*"
   templates:
   - notice
 - type: directory
   path: exampleSite/content/english/teacher
-  label: Teacher (en)
+  label: Teacher
   create: all
   match: "**/*"
   templates:
   - teacher
 - type: directory
   path: exampleSite/content/english/event
-  label: Event (en)
+  label: Event
   create: all
   match: "**/*"
   templates:
   - event
 - type: directory
   path: exampleSite/content/english/research
-  label: Research (en)
+  label: Research
   create: all
   match: "**/*"
   templates:
   - research
 - type: directory
   path: exampleSite/content/english/scholarship
-  label: Scholarship (en)
+  label: Scholarship
   create: all
   match: "**/*"
   templates:
   - scholarship
 - type: directory
   path: exampleSite/content/english/about
-  label: About (en)
+  label: About
   create: none
   match: "*"
 - type: directory
   path: exampleSite/content/english/contact
-  label: Contact (en)
+  label: Contact
   create: none
   match: "*"
 - type: directory
   path: exampleSite/content/english/pages
-  label: Created Pages (en)
+  label: Created Pages
   create: documents
   match: "**/*"
   templates:
   - new-page
 - type: directory
   path: exampleSite/content/english
-  label: All Pages (en)
+  label: All Pages
   create: all
   match: "**/*"
   templates:
@@ -88,7 +88,7 @@ sections:
   label: Data
 - type: directory
   path: exampleSite/data/en
-  label: Data (en)
+  label: Data
   create: all
   match: "**/*"
 - type: directory
