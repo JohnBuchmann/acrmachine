@@ -107,17 +107,18 @@ blog:
   title: Latest News
 homepage_blocks:
   blocks:
-  - title: "Title 1"
+  - title: Title 05
+    link: blabla.html
+    description: Just a test
+  - title: Title 1
     link: "/"
-    description: "Lorem ipsum 01"
-  - title: "Title 2"
+    description: Lorem ipsum 01
+  - title: Title 2
     link: "/"
-    description: "Lorem ipsum 02"
-  - title: "Title 3"
+    description: Lorem ipsum 02
+  - title: Title 3
     link: "/"
-    description: "Lorem ipsum 03"
-  - title: "Title 4"
+    description: Lorem ipsum 03
+  - title: Title 4
     link: "/"
-    description: "Lorem ipsum 04"
-  
-    
+    description: Lorem ipsum 04
