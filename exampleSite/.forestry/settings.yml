@@ -86,7 +86,7 @@ sections:
   - new-page
 - type: heading
   label: Misc
-- type: directory
+- type: document
   path: exampleSite
   label: Configuration
   create: all
