@@ -89,7 +89,7 @@ sections:
 - type: directory
   path: exampleSite
   label: Configuration
-  create: all
+  create: none
   match: "*.toml"
   new_doc_ext: toml
 - type: directory
