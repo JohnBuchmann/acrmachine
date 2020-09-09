@@ -93,9 +93,9 @@ sections:
   match: "*.toml"
   new_doc_ext: toml
 - type: directory
-  path: exampleSite/data/en
+  path: exampleSite/data
   label: Data
-  create: all
+  create: none
   match: "**/*"
 upload_dir: exampleSite/static/images
 public_path: "/images"
