@@ -1,10 +1,11 @@
 {{ define "main" }}
 
-{{ $data := index site.Data site.Language.Lang }}
+<!-- {{ $data := index site.Data site.Language.Lang }} -->
+{{ $homepage := site.Data.homepage }}
 
 <!-- hero slider -->
-{{ if $data.homepage.slider.enable }}
-{{ with $data.homepage.slider }}
+{{ if $homepage.slider.enable }}
+{{ with $homepage.slider }}
 <section class="hero-section overlay bg-cover" data-background="{{ .bg_image | absURL }}">
   <div class="container">
     <div class="hero-slider">
@@ -31,8 +32,8 @@
 <!-- /hero slider -->
 
 <!-- banner-feature -->
-{{ if $data.homepage.banner_feature.enable }}
-{{ with $data.homepage.banner_feature }}
+{{ if $homepage.banner_feature.enable }}
+{{ with $homepage.banner_feature }}
 <section class="bg-gray overflow-md-hidden">
   <div class="container-fluid p-0">
     <div class="row no-gutters">
@@ -58,8 +59,8 @@
 <!-- /banner-feature -->
 
 <!-- about us -->
-{{ if $data.homepage.about.enable }}
-{{ with $data.homepage.about }}
+{{ if $homepage.about.enable }}
+{{ with $homepage.about }}
 <section class="section">
   <div class="container">
     <div class="row align-items-center">
@@ -85,13 +86,13 @@
 <!-- /about us -->
 
 <!-- courses -->
-{{ if $data.homepage.course.enable }}
+{{ if $homepage.course.enable }}
 <section class="section-sm">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
-          <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.course.title }}</h2>
+          <h2 class="mb-0 text-nowrap mr-3">{{ $homepage.course.title }}</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
             <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
@@ -121,8 +122,8 @@
 <!-- /courses -->
 
 <!-- cta -->
-{{ if $data.homepage.cta.enable }}
-{{ with $data.homepage.cta }}
+{{ if $homepage.cta.enable }}
+{{ with $homepage.cta }}
 <section class="section bg-primary">
   <div class="container">
     <div class="row">
@@ -143,19 +144,19 @@
 <!-- /cta -->
 
 <!-- success story -->
-{{ if $data.homepage.success_story.enable }}
+{{ if $homepage.success_story.enable }}
 {{ partial "success-story.html" . }}
 {{ end }}
 <!-- /success story -->
 
 <!-- events -->
-{{ if $data.homepage.event.enable }}
+{{ if $homepage.event.enable }}
 <section class="section bg-gray">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
-          <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.event.title }}</h2>
+          <h2 class="mb-0 text-nowrap mr-3">{{ $homepage.event.title }}</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
             <a href="{{`event` | relLangURL }}" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block text-nowrap">{{ i18n "see_all" }}</a>
@@ -183,12 +184,12 @@
 <!-- /events -->
 
 <!-- blog -->
-{{ if $data.homepage.blog.enable }}
+{{ if $homepage.blog.enable }}
 <section class="section">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2 class="section-title">{{ $data.homepage.blog.title }}</h2>
+        <h2 class="section-title">{{ $homepage.blog.title }}</h2>
       </div>
     </div>
     <div class="row justify-content-center">

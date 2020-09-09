@@ -3,7 +3,7 @@ disableLanguages = []
 disqusShortname = "educenter"
 paginate = "6"
 summaryLength = "10"
-theme = "educenter-hugo"
+theme = "acrmachine"
 title = "ACR Machine Configuration"
 [Languages.en]
 contentDir = "content/english"
@@ -12,13 +12,6 @@ home = "Home"
 languageCode = "en-us"
 languageName = "En"
 weight = 1
-[Languages.fr]
-contentDir = "content/french"
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
-home = "Accueil"
-languageCode = "fr-fr"
-languageName = "Fr"
-weight = 2
 [[menu.footer]]
 URL = "teacher"
 name = "teacher"

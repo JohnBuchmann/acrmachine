@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ $data := index site.Data site.Language.Lang }}
+{{ $homepage := site.Data.homepage }}
 
 <!-- about -->
 <section class="section">
@@ -18,8 +18,8 @@
 <!-- /about -->
 
 <!-- funfacts -->
-{{ if $data.homepage.funfacts.enable }}
-{{ with $data.homepage.funfacts }}
+{{ if $homepage.funfacts.enable }}
+{{ with $homepage.funfacts }}
 <section class="section-sm bg-primary">
   <div class="container">
     <div class="row">
@@ -44,7 +44,7 @@
 <!-- /success story -->
 
 <!-- teacher -->
-{{ if $data.homepage.blog.enable }}
+{{ if $homepage.blog.enable }}
 <section class="section">
   <div class="container">
     <div class="row">
