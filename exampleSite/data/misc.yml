@@ -1,6 +1,10 @@
+---
 homepage_blocks:
   enable: true
   blocks:
+  - title: AAAAAAAAAAAAAAAAA
+    link: "#"
+    description: My desc
   - title: Quality
     link: "/"
     description: Our machinery is state of the art. Our test instruments are calibrated
