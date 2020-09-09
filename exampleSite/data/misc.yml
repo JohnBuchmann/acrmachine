@@ -1,0 +1,17 @@
+homepage_blocks:
+  enable: true
+  blocks:
+  - title: Quality
+    link: "/"
+    description: Our machinery is state of the art. Our test instruments are calibrated
+      traceable to NIST.
+  - title: On time delivery
+    link: "/"
+    description: Our modern equipment and highly qualified staff enables us to deliver
+      your job in a timely manner.
+  - title: Title 3
+    link: "/"
+    description: Lorem ipsum 03
+  - title: Title 4
+    link: "/"
+    description: Lorem ipsum 04
