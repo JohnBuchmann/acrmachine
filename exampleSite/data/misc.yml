@@ -10,12 +10,12 @@ homepage_blocks:
     link: "/"
     description: Our modern equipment and highly qualified staff enables us to deliver
       your job in a timely manner.
+  - title: AAAAAAAAAAAAAAAAA
+    link: "#"
+    description: My desc
   - title: Title 3
     link: "/"
     description: Lorem ipsum 03
   - title: Title 4
     link: "/"
     description: Lorem ipsum 04
-  - title: AAAAAAAAAAAAAAAAA
-    link: "#"
-    description: My desc
