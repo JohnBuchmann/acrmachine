@@ -4,26 +4,6 @@ paginate = "6"
 summaryLength = "10"
 theme = "acrmachine"
 title = "ACR Machine Configuration"
-[[menu.footer]]
-URL = "teacher"
-name = "teacher"
-weight = 5
-[[menu.footer]]
-URL = "scholarship"
-name = "scholarship"
-weight = 2
-[[menu.footer]]
-URL = "research"
-name = "research"
-weight = 1
-[[menu.footer]]
-URL = "event"
-name = "event"
-weight = 3
-[[menu.footer]]
-URL = "notice"
-name = "notice"
-weight = 4
 [params]
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
 # contentDir = "content/english"
