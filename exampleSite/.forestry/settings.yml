@@ -5,80 +5,80 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: exampleSite/content/english/blog
+  path: exampleSite/content/blog
   label: Post
   create: documents
   match: "**/*"
   templates:
   - post
 - type: directory
-  path: exampleSite/content/english/author
+  path: exampleSite/content/author
   label: Author
   create: documents
   match: "**/*"
   templates:
   - author
 - type: directory
-  path: exampleSite/content/english/course
+  path: exampleSite/content/course
   label: Course
   create: documents
   match: "**/*"
   templates:
   - course
 - type: directory
-  path: exampleSite/content/english/notice
+  path: exampleSite/content/notice
   label: Notice
   create: all
   match: "**/*"
   templates:
   - notice
 - type: directory
-  path: exampleSite/content/english/teacher
+  path: exampleSite/content/teacher
   label: Teacher
   create: all
   match: "**/*"
   templates:
   - teacher
 - type: directory
-  path: exampleSite/content/english/event
+  path: exampleSite/content/event
   label: Event
   create: all
   match: "**/*"
   templates:
   - event
 - type: directory
-  path: exampleSite/content/english/research
+  path: exampleSite/content/research
   label: Research
   create: all
   match: "**/*"
   templates:
   - research
 - type: directory
-  path: exampleSite/content/english/scholarship
+  path: exampleSite/content/scholarship
   label: Scholarship
   create: all
   match: "**/*"
   templates:
   - scholarship
 - type: directory
-  path: exampleSite/content/english/about
+  path: exampleSite/content/about
   label: About
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/english/contact
+  path: exampleSite/content/contact
   label: Contact
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/english/pages
+  path: exampleSite/content/pages
   label: Created Pages
   create: documents
   match: "**/*"
   templates:
   - new-page
 - type: directory
-  path: exampleSite/content/english
+  path: exampleSite/content
   label: All Pages
   create: all
   match: "**/*"
