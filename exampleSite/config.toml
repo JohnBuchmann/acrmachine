@@ -26,15 +26,14 @@ URL = "notice"
 name = "notice"
 weight = 4
 [params]
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
-# contentDir = "content/english"
-home = "Home"
 address = "123 Main St....."
 author = "John Buchmann"
 contact_form_action = "#"
+copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
 description = "This is meta description"
 email = "info@educenter.com"
 google_analitycs_id = ""
+home = "Home"
 logo = "images/logo.png"
 mobile = "+211234565523"
 top_header = true
