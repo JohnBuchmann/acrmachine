@@ -36,6 +36,9 @@ contact:
   icon: ti-location-pin
   link: "#"
 aaa: Bla bla bla.......
+menu:
+  footer:
+    weight: 2
 
 ---
 ### About Me
